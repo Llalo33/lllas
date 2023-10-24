@@ -160,7 +160,7 @@ function cutText(text, limit) {
     }else{
       const trueWord = word.slice(0, limit)
       const trueWord2 = trueWord.join(' ')
-      return trueWord2
+      return `${trueWord2}...`
     } 
   // твой код
 }
